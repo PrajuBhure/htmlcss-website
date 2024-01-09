@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GRID PRACTICE</title>
+
+</head>
+
+<body>
+    <div style="display: grid;
+                grid-template-columns: 100px 100px;
+                margin-bottom: 10px; ">
+        <div style="background-color: lightblue;   margin-right: 6px;">div 1</div>
+        <div style="background-color: lightcoral;">div 2
+            <p>text</p>
+        </div>
+    </div>
+    <div style="display: grid;
+               grid-template-columns: 100px 100px 200px;">
+        <div style="background-color: lightblue; margin-right: 6px;">100px</div>
+        <div style="background-color: lightcoral;  margin-right: 6px;">100px</div>
+        <div style="background-color: lightcyan;">200px<p>element</p>
+        </div>
+        <div style="background-color: aqua; margin-top: 4px;">div next</div>
+    </div>
+
+    <div style="display: grid;
+               grid-template-columns: 100px 1fr">
+        <div style="background-color: lightblue; margin-right: 6px;">100px</div>
+        <div style="background-color: lightcoral;  margin-right: 6px;">1fr</div>
+    </div>
+    <div style="display: grid;
+    grid-template-columns: 100px 1fr 1fr; margin-top: 10px;">
+        <div style="background-color: lightblue; margin-right: 6px;">100px</div>
+        <div style="background-color: lightcoral;  margin-right: 6px;">1fr</div>
+        <div style="background-color: lawngreen; margin-right: 6px;">1fr</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 100px 1fr 2fr; margin-top: 10px;">
+        <div style="background-color: lightblue; margin-right: 6px;">100px</div>
+        <div style="background-color: lightcoral;  margin-right: 6px;">1fr</div>
+        <div style="background-color: lawngreen; margin-right: 6px;">2fr</div>
+    </div>
+
+    <div style="display: grid;
+                 grid-template-columns: 1fr 1fr 1fr; 
+                 margin-top: 10px;
+                 column-gap: 20px;
+                 row-gap: 40px;">
+        <div style="background-color: lightblue; height: 200px;">1fr</div>
+        <div style="background-color: lightcoral;  height: 200px;">1fr</div>
+        <div style="background-color: lawngreen;  height: 200px;">1fr</div>
+        <div style="background-color: lawngreen;  height: 200px;">1fr</div>
+        <div style="background-color: lightcoral;  height: 200px;">1fr</div>
+
+        <div style="background-color: lightblue; height: 200px;">1fr</div>
+
+    </div>
+
+
+</body>
+
+</html>

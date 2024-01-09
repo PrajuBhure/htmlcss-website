@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>linear gradient</title>
+    <style>
+        .india {
+            font-size: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, rgb(250, 166, 9), #ffffff, rgb(6, 211, 6));
+            color: transparent;
+            background-clip: text;
+
+        }
+
+        /* body {
+            background-color: black;
+        } */
+
+        .rec {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(360deg, red, pink, blue, yellow);
+            clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="india">INDIA</div>
+    <div class="rec"> </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ANIMATION COLOR CHANGE</title>
+    <style>
+        .ani {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: colors 5s infinite;
+            position: relative;
+            color: white;
+
+        }
+
+        @keyframes colors {
+            0% {
+                background-color: red;
+                top: 0px;
+            }
+
+            25% {
+                background-color: chartreuse;
+                top: 200px;
+            }
+
+            50% {
+                background-color: palevioletred;
+                top: 50px;
+            }
+
+            75% {
+                background-color: blueviolet;
+                top: 100px;
+            }
+
+            100% {
+                background-color: chocolate;
+                top: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ani">
+        CHANGE
+
+    </div>
+</body>
+
+</html>
